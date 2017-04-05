@@ -1,0 +1,435 @@
+
+body {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 1px;
+    height: 100%;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+img {
+    width: 100%;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ /*HOMEPAGE SLIDER BACKGROUND CSS STYLE*/
+
+.start {
+    position: relative;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 2;
+    top:0;
+    height: 100vh;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#header{
+    padding: 0px 80px;
+    /*height: 50px;*/
+    /*background-color: transparent;*/
+}
+#header-menu li{
+    padding: 0;
+}
+.welcome-area {
+    height: 100%;
+}
+
+.welcome_slider{
+    padding-top: 15%;
+    /*background-color: gray;*/
+}
+
+.header-text img {
+    width: 130px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.header-text h2 {
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header-text p {
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 100px;
+}
+.logo h3 {
+    color: #fff;
+}
+
+.logo h3 span {
+    color: #FFCB2F;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+ /*.ABOUT */
+
+#about{
+    margin: 70px 0;
+}
+.about-text {
+    padding-top: 80px;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.about-text h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.about-text p {
+    font-weight: 300;
+}
+
+.about-text a {
+    display: inline-block;
+    background: #FFCB2F;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #FFCB2F;
+    text-transform: capitalize;
+}
+
+.about-text a:hover {
+    background: transparent;
+    border: 1px solid #FFCB2F;
+    transition: .3s;
+    color: #333;
+}
+
+
+/*SERVICE */
+
+
+.service-area {
+    background: #F6F6F6;
+}
+.section-title h2{
+    padding: 30px 0;
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.single-service {
+    text-align: center;
+    background: #fff;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+}
+
+.single-service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #FFCB2F;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    /*border: 1px solid #FFCB2F;*/
+}
+.single-service h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0px;
+    color: #333;
+}
+
+.single-service p {
+    margin-bottom: 0;
+    color: #333;
+}
+
+
+/*COMPLETE PROJECT CSS STYLE*/
+
+
+.complete-project-area {
+    padding: 160px 0px;
+    position: relative;
+    background: url(bg.jpg);
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.project-complete {
+    text-align: center;
+}
+
+.project-complete h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFCB2F;
+}
+
+.project-complete h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+ /*WORK EXPERIENCE & EDUCATION CSS STYLE*/
+
+
+.work-experience-area {
+    background: #F6F6F6;
+}
+
+.work-experience-area .section-title h2 {
+    color: #333;
+}
+
+.single-experience {
+    background: #fff;
+    padding: 40px 30px;
+    margin-bottom: 20px;
+}
+
+.single-experience h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    margin-top: 0;
+}
+
+.single-experience h3 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.single-experience span {
+    float: right;
+    margin-top: -30px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    background: #FFCB2F;
+    padding: 5px 10px;
+}
+
+.single-experience p {
+    margin-bottom: 0;
+}
+
+
+
+/*TESTIMONIAL CSS STYLE*/
+
+
+.testimonial-area {
+    padding: 100px 0px;
+    position: relative;
+    background: url(testi.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.testimonial-area .section-title h2 {
+    color: #fff;
+}
+.single-testimonial h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.single-testimonial h3 {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.single-testimonial p {
+    color: #fff;
+    padding: 20px 200px;
+}
+
+.single-testimonial i {
+    color: #FFCB2F;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+
+/*CONTACT CSS STYLE*/
+
+
+.single-contact-details {
+    margin-top: 30px;
+}
+
+.single-contact-details i {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background: #FFCB2F;
+}
+
+.single-contact-details h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.contact-form {
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.form-control {
+    display: block;
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    padding: 5px 0px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 0px;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    margin-bottom: 25px;
+}
+
+.contact-form input[type='submit'] {
+    display: inline-block;
+    color: #fff;
+    background: none;
+    padding-top: 14px 24px 10px 24px;
+    border: 1px solid #FFCB2F;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 0px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    background: #FFCB2F;
+}
+
+.contact-form input[type='submit']:hover {
+    background: transparent;
+    border: 1px solid #FFCB2F;
+    color: #000;
+    transition: all 0.2s;
+}
+
+.success {
+    background: #50B948 none repeat scroll 0 0;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*MAP CSS STYLE*/
+
+#map {
+    height: 350px;
+}
+
+
+/*FOOTER CSS STYLE*/
+
+
+.footer-area {
+    background: #0C0B0B;
+    padding: 120px 0px;
+}
+
+.footer-area p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-social-link {
+    margin-top: 10px;
+}
+
+.footer-social-link ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-social-link ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.footer-social-link ul li a {
+    display: block;
+    color: #FFCB2F;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-social-link ul li a:hover {
+    color: #ccc;
+}
+
+
